@@ -15,3 +15,19 @@ root.render(myelement);
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(myElement);
+
+
+//FRAGMENT - to avoid errors in html is not correct/missed parent element like division
+
+// import React from 'react';
+// import ReactDOM from 'react-dom/client';
+
+// const myElement = (
+//     <>
+//       <p>I am Jagadeesh.</p>
+//       <p>I am Jagadeesh Gudhe.</p>
+//     </>
+//   );
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(myElement);
