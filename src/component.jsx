@@ -1,15 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+// import React from 'react';
+// import ReactDOM from 'react-dom/client';
 
-function Car() {
-  return <h2>Hi, I am a Car!</h2>;
-}
+// function Car() {
+//   return <h2>Hi, I am a Car!</h2>;
+// }
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Car />); //----here the car component is render to root
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(<Car />); //----here the car component is render to root
 
 
-component in component
+// component in component
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
@@ -23,5 +23,7 @@ function Garage(){
     <h2>who r in garage</h2>
     <car/>
     </>
-  )
+  );
 }
+const root=ReactDOM.createRoot(document.getElementById('root'));
+root.render(<Garage/>);
