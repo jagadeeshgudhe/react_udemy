@@ -1,7 +1,7 @@
-react  events are also same as html events like change, mouse over, clicks
-react events are written in camel case
-HTML-> onclick() ,,, react-> onClick{}
-instead of writing in html we write in curly braces 
+// react  events are also same as html events like change, mouse over, clicks
+// react events are written in camel case
+// HTML-> onclick() ,,, react-> onClick{}
+// instead of writing in html we write in curly braces 
 
 
 
